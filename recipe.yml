@@ -1,4 +1,4 @@
-name: Salman\'s Personal Image # Replace this name with your image name
+name: Salmans Personal Image # Replace this name with your image name
 id: personal # Replace this ID with your image ID
 stages:
 - id: build
@@ -29,6 +29,8 @@ stages:
       packages:
       - vim
       - gtk2-engines-murrine
+      - qt5-style-kvantum
+      - qt5-style-kvantum-themes
 
   - name: example-commands # Sample module demonstrating the Shell module with custom commands
     type: shell
