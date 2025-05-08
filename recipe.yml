@@ -31,6 +31,8 @@ stages:
       - gtk2-engines-murrine
       - qt5-style-kvantum
       - qt5-style-kvantum-themes
+      - fprintd
+      - libpam-fprintd
 
   - name: example-commands # Sample module demonstrating the Shell module with custom commands
     type: shell
